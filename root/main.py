@@ -11,7 +11,7 @@ def get_player_choice():
 
 def check_winner(cpu_choice, player_choice):
     if player_choice == cpu_choice:
-        winner = "Tie"
+            winner = "Tie"
     elif cpu_choice == "rock":
         if player_choice == "paper":
             winner = "PLAYER"
